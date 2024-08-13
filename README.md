@@ -1,2 +1,1 @@
-# ih
-technology.ih
+# my_page
