@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #07203a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: rgb(8, 41, 94);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+main {
+    text-align: center;
+    padding: 80px 20px 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.me, .bm, .ych, .ych1 {
+    margin-bottom: 20px;
+}
+
+.me {
+    color: rgb(248, 52, 3);
+}
+
+.bm {
+    color: #a2dbe2;
+}
+
+.cta1 {
+    display: inline-block;
+    background-color: #f2a900;
+    color: #000;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta1:hover {
+    background-color: #d89a00;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 3em;
+    position: relative;
+}
+
+.ych {
+    color: #a9b9c2;
+}
+
+.ych1 {
+    color: #95abb9;
+}
+
+footer {
+    background-color: rgb(18, 114, 165);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .content h2 {
+        font-size: 2em;
+    }
+
+    header {
+        font-size: 16px;
+    }
+
+    .cta1 {
+        padding: 12px 25px;
+    }
+
+    .me, .bm, .ych, .ych1 {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 14px;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    .cta1 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
